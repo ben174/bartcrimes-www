@@ -1,5 +1,8 @@
 import React from 'react'
 import { Container, Divider, Dropdown, Grid, Header, Image, List, Menu, Segment } from 'semantic-ui-react'
+import Listing from './Listing'
+
+
 
 const App = () =>
   <div>
@@ -43,7 +46,8 @@ const App = () =>
 Your donations help keep the site alive, and allow me to add new features, such as search and station map.
 
 
-</p>
+	  </p>
+	  <Listing />
 
       <Image src='/assets/images/wireframe/media-paragraph.png' style={{ marginTop: '2em' }} />
       <Image src='/assets/images/wireframe/paragraph.png' style={{ marginTop: '2em' }} />
